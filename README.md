@@ -1,6 +1,7 @@
 # Ergasies-Python
 
 **Python Version:** 3.7.4
+
 **IDE:** PyCharm 2019.2.3
 
 -------------------------------------
