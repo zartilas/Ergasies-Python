@@ -1,10 +1,5 @@
-def load_paragraph():
-    with open('Paragraph.txt', 'r') as file:
-        paragraph = file.read()
-        return paragraph
+import os
 
-
-def save_to_file(pl):
-    file = open("Plithos.txt", "w", "utf-8")
-    file.write("Number of non-printable characters: ", pl)
-    file.close()
+def file_exists(name):
+    if os.path.exists(name):
+        open('Plithos.txt', 'w').close()
