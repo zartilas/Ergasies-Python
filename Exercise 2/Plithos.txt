@@ -1,0 +1,9 @@
+Number of all non printable characters: 33
+
+ASCII table of non-printable characters:
+Dec  Char
+---------
+8  BACKSPACE
+9  TAB
+32  SPACE
+127  DELETE
